@@ -2,11 +2,11 @@
 Diplomatic transcription extraction routine for the Haṭhapradīpikā-editing project.
 
 ## Prerequisites
-- xslt processor 
-- grep, sed, uniq, sort
+- xslt processor,
+- grep, sed, uniq, sort.
 
 ## Usage
-- browse `wit_texts` directory for the transcriptions,
+- browse [wit_texts](wit_texts/) directory for the transcriptions,
 - run `x-wit-texts-all.sh` to recreate from the same input file.
 
 ## Normalisations performed
@@ -34,7 +34,7 @@ Diplomatic transcription extraction routine for the Haṭhapradīpikā-editing p
 
 ```
 
-- Create a mappings for commands used in the apparatus, like `\om`:
+- Create mappings for commands used in the apparatus, like `\om`:
 
 ```latex
 %%% TEI mapping
