@@ -1,0 +1,114 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+	<title>Haṭhapradīpikā, witness V3</title>
+	<respStmt>
+	  <resp>saṃśodhana-yantrakaḥ</resp>
+	  <name xml:id="ed">Ed Itor</name>
+	</respStmt>
+      </titleStmt>
+      <publicationStmt>
+	<distributor><!-- Distributor name  --></distributor>
+      </publicationStmt>
+      <sourceDesc>
+	<listWit><witness>
+	    <abbr type="siglum">V<hi rend="sub">3</hi></abbr>
+	    Sampurnananda Library Sarasvati Bhavan 29899
+	    <msDesc>
+	      <msIdentifier/>
+	    </msDesc>
+	  </witness></listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <variantEncoding method="parallel-segmentation" location="internal"/>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <lg xml:id="hp1-1">
+	<l>śrīādināthāya namo'stu  tasmai yenopadiṣṭā haṭhayogavidyā</l>
+	<l>virājate pronnatarājayogammāroḍhumicchoradhi°roha eva</l>
+      </lg>
+      <lg xml:id="hp1-2">
+	<l>praṇamya śrīguruṃ nāthaṃ svātmārāmeṇa yoginā</l>
+	<l>kevalaṃ  haṭhavidyopadiśyate</l>
+      </lg>
+      <lg xml:id="hp1-3">
+	<l>bhrāntvā vaṃhumatadhvānte rājayoga majānatām</l>
+	<l>haṭhapradīpikāṃ dhatte svātmārāma prakāśyate</l>
+      </lg>
+      <lg xml:id="hp1-4">
+	<l>haṭhavidyāṃ hi matsyendragorakṣādyā vijānate</l>
+	<l>svātmārāmo'thavā yogī jānante tatprasādataḥ</l>
+      </lg>
+      <lg xml:id="hp1-5">
+	<l>śrīādināthamatsyendrasāgarānandabhairavā</l>
+	<l>cauraṅgīmīnagorakṣavirūpākṣabileśayā</l>
+      </lg>
+      <lg xml:id="hp1-6">
+	<l>manthānabhairavo yogī siddhabuddhiśca kanthaḍīṃ</l>
+	<l>pauraṇṭakaḥ surānanda siddhapādaśca carppaṭiḥ</l>
+      </lg>
+      <lg xml:id="hp1-7">
+	<l>kānerī pūjyapādaśca nityanātho nirañjanaṃ</l>
+	<l>kapālībindunāthaśca kākacaṇḍīśvaādayaḥ</l>
+      </lg>
+      <lg xml:id="hp1-8">
+	<l>allāmaḥ prabhudevaśca ghoḍācolī ca ciṃciṇī</l>
+	<l>vāsukir nāgabodhaśca khaṇḍakāpālikastathā</l>
+      </lg>
+      <lg xml:id="hp1-9">
+	<l>ityādayo mahāsiddhā haṭhayogaprasādataḥ</l>
+	<l>khaṇḍayitvā kāladaṇḍaṃ brahmāṇḍe tu caranti te</l>
+      </lg>
+      <lg xml:id="hp1-10">
+	<l>saṃsārāśramataptānām āśrayo yaṃ haṭho mataḥ</l>
+	<l>aśeṣayogayuktānāmādhāraḥkamaṭho haṭhaḥ</l>
+      </lg>
+      <lg xml:id="hp1-11">
+	<l>haṭhavidyā paraṃ gopyaṃ yogināṃ siddhimicchatām</l>
+	<l>bhavedvīryavatī guptā nirvīryā tu prakāśitā</l>
+      </lg>
+      <lg xml:id="hp1-12">
+	<l>surājye dhārmike deśe subhikṣe nirupadrave</l>
+	<l>ekānte maṭhikāmadhye sthātavyaṃ haṭhayoginā</l>
+      </lg>
+      <lg xml:id="hp1-13">
+	<l>alpadvāramarandhragarttaviṭapaṃ nātyuccanoccāyataṃ</l>
+	<l>samyagomayasāndraliptavimalaṃ niḥśeṣabādhojhitaṃ</l>
+	<l>bāhye maṇḍapavedikūparuciraṃ prākārasaṃveṣṭitaṃ</l>
+	<l>proktaṃ yogamaṭhasya lakṣaṇamidaṃ siddhairhaṭhābhyāsibhiḥ</l>
+      </lg>
+      <lg xml:id="hp1-14">
+	<l>evaṃvidhe maṭhe sthitvā sarvacintāvivarjitaḥ</l>
+	<l>gurūpadiṣṭamārgeṇa yoga ārgaṃ samabhyaset</l>
+      </lg>
+      <lg xml:id="hp1-15">
+	<l>ātmāhāraḥ prayāsaśca prajalpo niyamagrahaḥ</l>
+	<l>janasaṅgaśca laulyaṃ ca ṣaḍbhiryogo vinaśyati</l>
+      </lg>
+      <lg xml:id="hp1-16">
+	<l>utsāhanniścayāddhairyāttattvajñānā ca darśanāt</l>
+	<l>janasaṅgaparityāgāt ṣaḍbhiyogaḥ prasidhyati</l>
+      </lg>
+      <lg xml:id="hp1-17">
+	<l>haṭhasya prathamāṅgatvādāsanaṃ pūrvamucyate</l>
+	<l>tatkuryādāsana skairyammārogyaṃ cāṅgapāṭavaṃ</l>
+      </lg>
+      <lg xml:id="hp1-18">
+	<l>vasiṣṭhādyaiśca munibhirmmatsyendrādyaiśca yogibhiḥ</l>
+	<l>aṅgīkṛtā nyāsanāni kathyante kānicinmayā</l>
+      </lg>
+      <lg xml:id="hp1-19">
+	<l>jānūrvvorantare samyakkṛtvā pādatale ubhe</l>
+	<l>ṛjuḥ kāyasamāsīnaṃ svastikaṃ tatpracakṣate</l>
+      </lg>
+      <lg xml:id="hp1-20">
+	<l>savye dakṣiṇagulphaṃ tu pṛṣṭhapārśve niyojayet</l>
+	<l>dakṣiṇe'pi tathā savyaṃ gomukhaṃ gomukhaṃ tathā</l>
+      </lg>
+    </body>
+  </text>
+</TEI>
