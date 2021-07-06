@@ -7,7 +7,7 @@ Diplomatic transcription extraction routine for the Haṭhapradīpikā-editing p
 
 ## Usage
 - browse [wit_texts](wit_texts/) directory for the transcriptions,
-- run `x-wit-texts-all.sh` to recreate from the same input file.
+- run `x-wit-texts-all.sh hp_1.1-20.xml` to recreate from the same input file.
 
 ## Normalisations performed
 - Changed paragraph elements `<p>` to line group elements `<lg>`, added `<l>` elements and `xml:id` attributes,

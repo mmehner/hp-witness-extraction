@@ -7,7 +7,7 @@
   <xsl:output method="xml" encoding="UTF-8" indent="no" omit-xml-declaration="yes"/>
 
   <xsl:param name="wit_ref">
-    <xsl:value-of select="concat('#', $wit_id)"/>
+    <xsl:value-of select="concat('#', $wit_id, ' ')"/>
   </xsl:param>
 
   <xsl:preserve-space elements=""/>
@@ -38,35 +38,17 @@
   <!-- text -->
   <xsl:template match="t:app">
     <xsl:choose>
-      <!-- only wit -->
-      <xsl:when test="*/@wit = $wit_ref"> 
-	<xsl:value-of select="*[@wit = $wit_ref]"/>
-      </xsl:when>
-      <!-- all but last wit -->
-      <xsl:when test="*[contains(@wit, concat($wit_ref, ' '))]">
-	<xsl:value-of select="*[contains(@wit, concat($wit_ref, ' '))]"/>
-      </xsl:when>
-      <!-- end of wit-list -->
-      <xsl:when test="*[contains(@wit, concat(' ', $wit_ref))]">
-	<xsl:value-of select="*[contains(@wit, concat(' ', $wit_ref))]"/>
+      <xsl:when test="*[contains(concat(@wit, ' '), $wit_ref)]">
+	<xsl:value-of select="*[contains(concat(@wit, ' '), $wit_ref)]"/>
       </xsl:when>
       <!-- base witness for ac and pc readings -->
-      <xsl:when test="contains($wit_ref, 'ac')">
+      <xsl:when test="contains($wit_ref, 'ac ')">
 	<xsl:variable name="base_wit">
-	  <xsl:value-of select="substring-before($wit_ref, 'ac')"/>
+	  <xsl:value-of select="concat(substring-before($wit_ref, 'ac '), ' ')"/>
 	</xsl:variable>
 	<xsl:choose>
-	  <!-- only wit -->
-	  <xsl:when test="*/@wit = $base_wit"> 
-	    <xsl:value-of select="*[@wit = $base_wit]"/>
-	  </xsl:when>
-	  <!-- all but last wit -->
-	  <xsl:when test="*[contains(@wit, concat($base_wit, ' '))]">
-	    <xsl:value-of select="*[contains(@wit, concat($base_wit, ' '))]"/>
-	  </xsl:when>
-	  <!-- end of wit-list -->
-	  <xsl:when test="*[contains(@wit, concat(' ', $base_wit))]">
-	    <xsl:value-of select="*[contains(@wit, concat(' ', $base_wit))]"/>
+	  <xsl:when test="*[contains(concat(@wit, ' '), $base_wit)]">
+	    <xsl:value-of select="*[contains(concat(@wit, ' '), $base_wit)]"/>
 	  </xsl:when>
 	  <!-- implicit reading with ceteri-->
 	  <xsl:otherwise>
@@ -74,22 +56,13 @@
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
-      <xsl:when test="contains($wit_ref, 'pc')">
+      <xsl:when test="contains($wit_ref, 'pc ')">
 	<xsl:variable name="base_wit">
-	  <xsl:value-of select="substring-before($wit_ref, 'pc')"/>
+	  <xsl:value-of select="concat(substring-before($wit_ref, 'pc '), ' ')"/>
 	</xsl:variable>
 	<xsl:choose>
-	  <!-- only wit -->
-	  <xsl:when test="*/@wit = $base_wit"> 
-	    <xsl:value-of select="*[@wit = $base_wit]"/>
-	  </xsl:when>
-	  <!-- all but last wit -->
-	  <xsl:when test="*[contains(@wit, concat($base_wit, ' '))]">
-	    <xsl:value-of select="*[contains(@wit, concat($base_wit, ' '))]"/>
-	  </xsl:when>
-	  <!-- end of wit-list -->
-	  <xsl:when test="*[contains(@wit, concat(' ', $base_wit))]">
-	    <xsl:value-of select="*[contains(@wit, concat(' ', $base_wit))]"/>
+	  <xsl:when test="*[contains(concat(@wit, ' '), $base_wit)]">
+	    <xsl:value-of select="*[contains(concat(@wit, ' '), $base_wit)]"/>
 	  </xsl:when>
 	  <!-- implicit reading with ceteri-->
 	  <xsl:otherwise>
@@ -101,7 +74,7 @@
       <xsl:otherwise>
 	<xsl:value-of select="*[@wit = '#ceteri']"/>
       </xsl:otherwise>
-    </xsl:choose>
+    </xsl:choose>    
   </xsl:template>
 
   <!-- deletions -->
