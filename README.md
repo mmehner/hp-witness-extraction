@@ -2,24 +2,28 @@
 Diplomatic transcription extraction routine for the Haṭhapradīpikā-editing project.
 
 ## Prerequisites
-- xslt processor,
-- grep, sed, uniq, sort.
+- xslt 1.0 processor,
+- grep, sed, uniq, sort, date
+
+## Compatibility
+- the `teiHeader` of the [witness transcriptions](wit_texts/) is optimized for direct upload to [saktumiva](http://saktumiva.org/)
+- the [csv-database of stemmatically relevant readings](hp_1.1-20_stemmapoint-readings.csv) can be exported with the [matrix editor](https://chchch.github.io/sanskrit-alignment/matrix-editor/) to recreate the corresponding [nexus file](hp_1.1-20_stemmapoint-readings.nex), which in turn can be examined with [SplitsTree 5.3.0](https://software-ab.informatik.uni-tuebingen.de/download/splitstree5/welcome.html), cf. [splitsnetwork](stemmapoint_splitsnetwork.png)
 
 ## Usage
 1. diplomatic text extraction:
 - browse [wit_texts](wit_texts/) directory for the transcriptions,
 - run `x-wit-texts-all.sh hp_1.1-20.xml` to recreate from the same input file.
 2. readings extraction into csv-database:
-- check out [hp_1.1-20_stemmapoints_readings.csv](hp_1.1-20_stemmapoints_readings.csv) for the database,
-- run `x-wit-readings-csv.sh hp_1.1-20_stemmapoints.xml` to recreate from the same input file.
+- check out [hp_1.1-20_stemmapoint-readings.csv](hp_1.1-20_stemmapoint-readings.csv) for the database,
+- run `x-wit-readings-csv.sh hp_1.1-20.xml` to recreate from the same input file.
 
-## Normalisations performed
+## Normalisation performed on initial release (realized)
 - Changed paragraph elements `<p>` to line group elements `<lg>`, added `<l>` elements and `xml:id` attributes,
 - purged not yet collated witnesses from `<listWit>`,
 - added collated witness "YC" to `<listWit>`,
 - added `wit` attribute with value "ceteri" to `lem` elements without `wit` attribute.
 
-## Encoding suggestions
+## Encoding suggestions on initial release (realized)
 - encode verses in custom environments with references mapped to xml:id attribute:
 
 ```latex

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet 
-    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns="http://www.tei-c.org/ns/1.0"
     xmlns:t="http://www.tei-c.org/ns/1.0"
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
   
@@ -22,7 +22,7 @@
   </xsl:template>
   
   <!-- text -->
-  <xsl:template match="t:app">
+  <xsl:template match="t:app[*[@type='stemmapoint']]">
     <xsl:choose>
       <xsl:when test="*[contains(concat(@wit, ' '), $wit_ref)]">
 	<xsl:value-of select="*[contains(concat(@wit, ' '), $wit_ref)]"/>
