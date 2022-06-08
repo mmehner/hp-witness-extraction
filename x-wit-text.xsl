@@ -144,7 +144,7 @@
   <xsl:template match="t:app">
     <xsl:choose>
       <xsl:when test="*[contains(concat(@wit, ' '), $wit_ref)]">
-	<xsl:value-of select="*[contains(concat(@wit, ' '), $wit_ref)]"/>
+	<xsl:apply-templates select="*[contains(concat(@wit, ' '), $wit_ref)]"/>
       </xsl:when>
       <!-- base witness for ac and pc readings -->
       <xsl:when test="contains($wit_ref, 'ac ')">
@@ -153,11 +153,11 @@
 	</xsl:variable>
 	<xsl:choose>
 	  <xsl:when test="*[contains(concat(@wit, ' '), $base_wit)]">
-	    <xsl:value-of select="*[contains(concat(@wit, ' '), $base_wit)]"/>
+	    <xsl:apply-templates select="*[contains(concat(@wit, ' '), $base_wit)]"/>
 	  </xsl:when>
 	  <!-- implicit reading with ceteri-->
 	  <xsl:otherwise>
-	    <xsl:value-of select="*[@wit = '#ceteri']"/>
+	    <xsl:apply-templates select="*[@wit = '#ceteri']"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
@@ -167,22 +167,39 @@
 	</xsl:variable>
 	<xsl:choose>
 	  <xsl:when test="*[contains(concat(@wit, ' '), $base_wit)]">
-	    <xsl:value-of select="*[contains(concat(@wit, ' '), $base_wit)]"/>
+	    <xsl:apply-templates select="*[contains(concat(@wit, ' '), $base_wit)]"/>
 	  </xsl:when>
 	  <!-- implicit reading with ceteri-->
 	  <xsl:otherwise>
-	    <xsl:value-of select="*[@wit = '#ceteri']"/>
+	    <xsl:apply-templates select="*[@wit = '#ceteri']"/>
 	  </xsl:otherwise>
 	</xsl:choose>
       </xsl:when>
       <!-- implicit reading with ceteri-->
       <xsl:otherwise>
-	<xsl:value-of select="*[@wit = '#ceteri']"/>
+	<xsl:apply-templates select="*[@wit = '#ceteri']"/>
       </xsl:otherwise>
     </xsl:choose>    
   </xsl:template>
 
-  <!-- deletions -->
-  <xsl:template match="t:note"/>
+  <!-- lem and rdg -->
+  <xsl:template match="t:lem">
+    <xsl:apply-templates/>
+  </xsl:template>
+
+  <xsl:template match="t:rdg">
+    <xsl:apply-templates/>
+    <xsl:text>RDG</xsl:text> <!-- insert string for later removal by sed -->
+  </xsl:template>
   
+  <!-- skm or ltn-ignore -->
+  <xsl:template match="t:seg[@type='ltn-ignore']">
+    <xsl:text>LTN</xsl:text> <!-- insert string for later removal by sed -->
+    <xsl:apply-templates/>
+  </xsl:template>
+  
+  <!-- deletions, i.e. other notes and skp or deva-ignore -->
+  <xsl:template match="t:note"/>
+  <xsl:template match="t:seg[@type='deva-ignore']"/>
+    
 </xsl:stylesheet>

@@ -11,5 +11,12 @@ grep -o "wit=\"[^\"]*\"" "${1}" | sed -e "s_\([\"#]\|wit=\|ceteri\)__g" -e "s_ _
     while read w;
     do
 	echo "Extracting witness ${w}"
-	xsltproc --output wit_texts/"${1%.xml}_${w}".xml --stringparam wit_id "${w}" --stringparam date "${date}" x-wit-text.xsl "${1}"
+	
+	wit_text="wit_texts/${1%.xml}_${w}.xml"
+	xsltproc --output "${wit_text}" --stringparam wit_id "${w}" --stringparam date "${date}" x-wit-text.xsl "${1}"
+
+	sed -i "${wit_text}" \
+	    -e "s_RDG\(</s><s[^>]*>\)\?LTN._\1_g" \
+	    -e "s_RDG\|LTN__g"
+	
     done
