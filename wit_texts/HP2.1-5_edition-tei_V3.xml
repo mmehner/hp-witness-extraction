@@ -1,0 +1,34 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xmlns:t="http://www.tei-c.org/ns/1.0"><fileDesc><titleStmt><title>V3 Sampurnananda Library Sarasvati Bhavan 29899</title></titleStmt><sourceDesc><msDesc><msIdentifier><placeName><settlement>[city, town, or village]</settlement><region>[region]</region><country>[country]</country></placeName><institution>[institution]</institution><repository>[repository]</repository><collection>[collection]</collection><idno>[manuscript identifier]</idno><idno type="NCC">[NCC identifier]</idno><idno type="siglum">V3</idno></msIdentifier><msContents><summary>[description of manuscript]</summary><msItem n="1" defective="true"><author xml:lang="sa" role="author">[author]</author><author xml:lang="sa" role="commentator">[commentator]</author><title xml:lang="sa">[title of text]</title><title xml:lang="sa" type="commentary">[title of commentary]</title><rubric xml:lang="sa"/><incipit xml:lang="sa"/><explicit xml:lang="sa"/><finalRubric xml:lang="sa"/><textLang mainLang="sa">[Sanskrit in Devanāgarī script.]</textLang></msItem></msContents><physDesc><objectDesc form="pothi"><supportDesc material="paper"><extent><measure quantity="XX" unit="folios"/><dimensions type="leaf" unit="cm"><height>[height]</height><width>[width]</width></dimensions><dimensions type="written" unit="cm"><height>[height]</height><width>[width]</width></dimensions></extent><foliation/><condition>[whether the manuscript is complete, description of wear and damage]</condition></supportDesc><layoutDesc><layout columns="@@Columns@@" writtenLines="XX" ruledLines="XX"><p>[description of marginal frame lines, etc.]</p></layout></layoutDesc></objectDesc><handDesc><handNote scope="sole" script="devanāgarī" medium="black ink"><p>[description of one hand]</p></handNote><handNote scope="major" script="devanāgarī" medium="red ink"><p>[description of another hand]</p></handNote><handNote scope="minor" script="english" medium="green highlighter"><p>[description of another hand]</p></handNote></handDesc><additions><p>[additional remarks]</p></additions><bindingDesc><p>[description of cover, binding, and/or stringholes]</p></bindingDesc></physDesc><history><origin><origDate calendar="" when="">[date]</origDate><origPlace xml:lang="en">[place of production]</origPlace></origin><provenance>[record of ownership]</provenance><acquisition>[how it was acquired]</acquisition></history></msDesc></sourceDesc></fileDesc><revisionDesc><change when="2023-10-10">witness extracted by <ref target="https://github.com/radardenker/hp-witness-extraction">hp-witness-extraction</ref></change></revisionDesc></teiHeader>
+<text>
+<body>
+
+<lg xml:id="hp02_001">
+ <l><s type="pada">athāsane dṛḍho yogī</s><s type="pada">vaśī hitamitāśanaḥ/</s></l>
+<l><s type="pada">gurūpadiṣṭamārgeṇa</s><s type="pada">prāṇāyāmo samabhyaset//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_002">
+ <l><s type="pada">cale citte calat sarvaṃ</s><s type="pada">niścale niścalaṃ tathā/</s></l>
+<l><s type="pada">yogī sthāṇutvam āpnoti</s><s type="pada">tato vāyunibandhanāt//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_003">
+ <l><s type="pada">yāvavāyu sthito dehe</s><s type="pada">tāvaj jīvitam ucyate/</s></l>
+<l><s type="pada">maraṇaṃ tasya niṣkrānti</s><s type="pada"> tato vāyuṃ nibandhayet//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_004">
+ <l><s type="pada">malākulāsu nāḍīṣu</s><s type="pada">māruto naiva madhyagaḥ/</s></l>
+<l><s type="pada">kathaṃ syād unmanībhāvaḥ</s><s type="pada">kāyasiddhiḥ kathaṃ bhavet//</s></l> 
+</lg>
+ 
+<lg xml:id="hp02_005">
+ <l><s type="pada">śuddhim eti yathā sarvaṃ</s><s type="pada">nāḍīcakra malākulam/</s></l>
+<l><s type="pada">tadaiva jāyate yogī</s><s type="pada">prāṇasaṃgrahaṇe kṣamaḥ//</s></l> 
+</lg>
+ 
+ <div type="colophon" xml:id="hp02_col"><p> iti śrīsvātmārāmayogīndraviracitāyāṃ haṭhapradīpikāyāṃ dvitīyopadeśaḥ// </p></div> 
+</body>
+</text>
+</TEI>
