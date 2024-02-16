@@ -7,6 +7,8 @@ set -o nounset
 
 date="$(date +%Y-%m-%d)"
 
+[ ! -f "${1}" ] && echo "${1} not a file." && exit 1    
+
 grep -o "wit=\"[^\"]*\"" "${1}" | sed -e "s_\([\"#]\|wit=\|ceteri\)__g" -e "s_ _\n_g" | sed "/^ *$/d" | sort | uniq | \
     while read w;
     do

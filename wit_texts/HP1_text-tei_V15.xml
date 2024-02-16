@@ -1,0 +1,455 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xmlns:t="http://www.tei-c.org/ns/1.0"><fileDesc><titleStmt><title>ε3 Sampurnananda Library Sarasvati Bhavan 30051 ε3ac ε3pc</title></titleStmt><sourceDesc><msDesc><msIdentifier><placeName><settlement>[city, town, or village]</settlement><region>[region]</region><country>[country]</country></placeName><institution>[institution]</institution><repository>[repository]</repository><collection>[collection]</collection><idno>[manuscript identifier]</idno><idno type="NCC">[NCC identifier]</idno><idno type="siglum">V15</idno></msIdentifier><msContents><summary>[description of manuscript]</summary><msItem n="1" defective="true"><author xml:lang="sa" role="author">[author]</author><author xml:lang="sa" role="commentator">[commentator]</author><title xml:lang="sa">[title of text]</title><title xml:lang="sa" type="commentary">[title of commentary]</title><rubric xml:lang="sa"/><incipit xml:lang="sa"/><explicit xml:lang="sa"/><finalRubric xml:lang="sa"/><textLang mainLang="sa">[Sanskrit in Devanāgarī script.]</textLang></msItem></msContents><physDesc><objectDesc form="pothi"><supportDesc material="paper"><extent><measure quantity="XX" unit="folios"/><dimensions type="leaf" unit="cm"><height>[height]</height><width>[width]</width></dimensions><dimensions type="written" unit="cm"><height>[height]</height><width>[width]</width></dimensions></extent><foliation/><condition>[whether the manuscript is complete, description of wear and damage]</condition></supportDesc><layoutDesc><layout columns="@@Columns@@" writtenLines="XX" ruledLines="XX"><p>[description of marginal frame lines, etc.]</p></layout></layoutDesc></objectDesc><handDesc><handNote scope="sole" script="devanāgarī" medium="black ink"><p>[description of one hand]</p></handNote><handNote scope="major" script="devanāgarī" medium="red ink"><p>[description of another hand]</p></handNote><handNote scope="minor" script="english" medium="green highlighter"><p>[description of another hand]</p></handNote></handDesc><additions><p>[additional remarks]</p></additions><bindingDesc><p>[description of cover, binding, and/or stringholes]</p></bindingDesc></physDesc><history><origin><origDate calendar="" when="">[date]</origDate><origPlace xml:lang="en">[place of production]</origPlace></origin><provenance>[record of ownership]</provenance><acquisition>[how it was acquired]</acquisition></history></msDesc></sourceDesc></fileDesc><revisionDesc><change when="2024-02-16">witness extracted by <ref target="https://github.com/radardenker/hp-witness-extraction">hp-witness-extraction</ref></change></revisionDesc></teiHeader>
+<text>
+<body>
+
+<lg xml:id="hp01_001">
+ <l> <s type="pada">śrīādināthāya namo’stu tasmai</s></l>
+<l> <s type="pada">yenopadiṣṭā haṭhayogavidyā/</s></l>
+<l> <s type="pada">virājate pronnatarājasaudha</s>-</l>
+<l> <s type="pada">m āroḍhum icchor adhirohiṇīva//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_002">
+ <l> <s type="pada">praṇamya śrīguruṃ nāthaṃ</s> <s type="pada">svātmārāmeṇa dhīmatā/</s></l>
+<l> <s type="pada">kevalaṃ rājayogāya</s> <s type="pada">haṭhavidyopadiśyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_003">
+ <l> <s type="pada">bhrāntyā bahumatadhvānte</s> <s type="pada">rājayogamajānataḥ/</s></l>
+<l> <s type="pada">haṭhapradīpikāṃ dhatte</s> <s type="pada">svātmārāmaḥ kṛpākaraḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_004">
+ <l> <s type="pada">haṭhavidyāṃ hi matsyendra</s><s type="pada">gorakṣādyā vijānate/</s></l>
+<l> <s type="pada">svātmārāmo</s><s type="pada">’thavā yogī jānīte tatprasādataḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_005">
+ <l> <s type="pada">śrīādināthamatsyendra</s><s type="pada">sāgarānandabhairavāḥ/</s></l>
+<l> <s type="pada">cauraṅgīmīnagorakṣa</s><s type="pada">virūpākṣabileśayāḥ//</s></l>
+</lg>
+ 
+<lg xml:id="hp01_006">
+ <l> <s type="pada">manthānabhairavo yogī</s> <s type="pada">siddhabuddhaś ca kanthaḍī/</s></l>
+<l> <s type="pada">koraṃḍakaḥ surānandaḥ</s> <s type="pada">śrīpādaś caiva carpaṭiḥ//</s> 
+
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_007">
+ <l> <s type="pada">kāṇeriḥ pūjyapādaś ca</s> <s type="pada">nityanātho nirañjanaḥ/</s></l>
+<l> <s type="pada">kapālī bindunāthaś ca</s> <s type="pada">kākacaṇḍīśvarāhvayaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_008">
+ <l> <s type="pada">amelleḥprabhudevaś ca</s> <s type="pada">ghoḍācolī ca ciṃciṇīḥ/</s></l>
+<l> <s type="pada">vāsukīr nāgabodhiś ca</s> <s type="pada">khaṇḍaḥkāpālikas tathā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_009">
+ <l> <s type="pada">ityādayo mahāsiddhā</s> <s type="pada">haṭhayogaprabhāvataḥ/</s></l>
+<l> <s type="pada">khaṇḍayitvā kāladaṇḍaṃ</s> <s type="pada">brahmāṇḍe °ṣu caranti te//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_010">
+ <l> <s type="pada">saṃsāratāpataptānāṃ</s> <s type="pada">samāśrayamahāmaṭhaḥ/</s></l>
+<l> <s type="pada">aśeṣayogajagatā</s><s type="pada">m ādhārakamaṭho haṭhaḥ//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_011">
+ <l> <s type="pada">haṭhavidyā paraṃ gopyā yogināṃ</s> <s type="pada">siddhim icchatām/</s></l>
+<l> <s type="pada">bhaved vīryavatī guptā</s> <s type="pada">nirvīryā ca prakāśitā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_012">
+ <l> <s type="pada">surājye dhārmike deśe</s> <s type="pada">subhikṣe nirupadrave/</s>
+</l>
+<l> <s type="pada">ekāntamaṭhikāmadhye</s> <s type="pada">sthātavyaṃ haṭhayoginā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_013">
+ <l> <s type="pada">alpadvāram arandhragartapiṭ(h)akaṃ nīcāvṛtaṃ</s></l>
+<l> <s type="pada">samyaggomayasāndraliptavimalaṃ niḥśeṣajantūjjhitam/</s></l>
+<l> <s type="pada">bāhye maṇḍapakūpavediruciraṃ prākārasaṃveṣṭitaṃ</s></l>
+<l> <s type="pada">proktaṃ yogamaṭhasya lakṣaṇam idaṃ siddhair haṭhābhyāsibhiḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_014">
+ <l> <s type="pada">evaṃvidhe maṭhe sthitvā</s> <s type="pada">sarvacintāvivarjitaḥ/</s></l>
+<l> <s type="pada">gurūpadiṣṭamārgeṇa</s> <s type="pada">yogam eva sadābhyaset//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_015">
+ <l> <s type="pada">atyāhāra prayāsaś ca</s> <s type="pada">prajalponiyamāgrahaḥ/</s></l>
+<l> <s type="pada">janasaṅgaś ca laulyaṃ ca</s> <s type="pada">ṣaḍbhir yogo vinaśyati//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_016">
+ <l> <s type="pada">utsāhāniścayād dhairyāt</s> <s type="pada">tatvajñānāc ca darśanāt/</s></l>
+<l> <s type="pada">janasaṅgaparityāgāt</s><s type="pada">ṣaḍbhir yogaḥ prasidhyati//</s></l> 
+</lg>
+ <div type="altrec">
+<lg xml:id="hp01_016_1">
+ <l> <s type="pada">ahiṃsā satyam asteyaṃ</s> <s type="pada">brahmacaryaṃ kṣamā dhṛtiḥ/</s> </l>
+<l> <s type="pada"> mitāhāraḥ</s> <s type="pada">śaucaṃ caiva yamā daśa//</s> 
+ </l>
+</lg>
+</div> <div type="altrec">
+<lg xml:id="hp01_016_2">
+ <l> <s type="pada">tapaḥ saṃtoṣam āstikyaṃ</s> <s type="pada">dānam īśvarapūjanam/</s> </l>
+<l> <s type="pada">śravaṇaṃ caiva</s> <s type="pada">hrī matiś ca japo hutam//</s> 
+ </l>
+</lg>
+</div> <div type="altrec">
+</div> 
+<lg xml:id="hp01_017">
+ <l> <s type="pada">haṭhasya prathamāṅgatvād</s> <s type="pada">āsanaṃ pūrvam ucyate/</s></l>
+<l> <s type="pada">tat kuryāāsane sthairyaṃ</s><s type="pada">m ārogyaṃ cāṅgalāghavaṃ//</s>
+<anchor xml:id="I17"/></l> 
+</lg>
+ 
+<lg xml:id="hp01_018">
+ <l> <s type="pada">vasiṣṭhādyaiś ca munibhi</s><s type="pada">r matsyendrādyaiś ca yogibhiḥ/</s></l>
+<l> <s type="pada">aṅgīkṛtāny āsanāni</s> <s type="pada">kathyante kānicin mayā//</s><anchor xml:id="v18d"/> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_019">
+ <l> <s type="pada">jānūrvor antare samyak</s><s type="pada">kṛtvā pādatale ubhe/</s></l>
+<l> <s type="pada">ṛjukāyaḥ samāsīnaḥ</s> <s type="pada">svastikaṃ tat pracakṣate//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_020">
+ <l> <s type="pada">savye dakṣiṇagulphaṃ tu</s> <s type="pada">pṛṣṭhapārśve niyojayet/</s></l>
+<l> <s type="pada">dakṣiṇe’pi tathā savyaṃ</s> <s type="pada">gomukhaṃ gomukhaṃ yathā//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_021">
+ <l> <s type="pada">eka pādatathaikasmin</s><s type="pada">vinyased ūru saṃsthitam/</s></l>
+<l> <s type="pada">itarasmiṃs tathā coruṃ</s> <s type="pada">vīrāsanam itīritam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_022">
+ <l> <s type="pada">gudaṃ nibadhya gulphābhyāṃ</s> <s type="pada">vyutkrameṇa samāhitaḥ/</s></l>
+<l> <s type="pada">kūrmāsanaṃ bhaved eta</s><s type="pada">d iti yogavido viduḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_023">
+ <l> <s type="pada">padmāsanaṃ tusaṃsthāpya</s> <s type="pada">jānūrvor antare karau/</s></l>
+<l> <s type="pada">niveśya bhūmau saṃsthāpya</s> <s type="pada">vyomasthaḥ kukkuṭāsanam//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_024">
+ <l> <s type="pada">kukkuṭāsanabandhastho</s><s type="pada">dorbhyāṃ saṃbadhya kandharām/</s></l>
+<l> <s type="pada">śete kūrmavauttānam</s> <s type="pada">etad uttānakūrmakam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_025">
+ <l> <s type="pada">pādāṅguṣṭhau tu pāṇibhyāṃ</s> <s type="pada">gṛhītvā śravaṇāvadhi/</s></l>
+<l> <s type="pada">dhanurākarṣaṇākṛṣṭaṃ</s> <s type="pada">dhanurāsanaīritam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_026">
+ <l> <s type="pada">vāmorumūlārpitadakṣapādaṃ</s></l>
+<l> <s type="pada">jānvor bahirveṣṭitavāmadoṣṇā/</s></l>
+<l> <s type="pada">pragṛhya tiṣṭhet parivartitāṅgaḥ</s></l>
+<l> <s type="pada">śrīmatsyanāthoditam āsanaṃ syāt//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_027">
+ <l> <s type="pada">matsyendrapīṭhaṃ jaṭharapracaṇḍaṃ</s>-</l>
+<l> <s type="pada">ruṅmaṇḍalakhaṇḍanāstram/</s></l>
+<l> <s type="pada">abhyāsataḥ kuṇḍalinīprabodhaṃ</s></l>
+<l> <s type="pada">kāyasthiratvaṃ ca dadāti puṃsām//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_028">
+ <l> <s type="pada">prasārya pādau bhuvi daṇḍarūpau</s></l>
+<l> <s type="pada">dorbhyāṃ padāgradvitayaṃgṛhītvā/</s></l>
+<l> <s type="pada">jānūparinyastalalāṭadeśo</s></l>
+<l> <s type="pada">bhavedd idaṃ paścimatānabaṃdhaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_029">
+ <l> <s type="pada">iti paścimatānam āsanāgryaṃ</s></l>
+<l> <s type="pada">pavanaṃ paścimavāhinaṃ karoti/</s></l>
+<l> <s type="pada">udayaṃ jaṭharānalasya kuryā-</s></l>
+<l> <s type="pada">d udare kārśyam arogatāṃ ca puṃsām//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_030">
+ <l> <s type="pada">dharām avaṣṭabhya karadvayābhyāṃ</s></l>
+<l> <s type="pada">tat kūrparasthāpitanābhipārśvaḥ/</s></l>
+<l> <s type="pada">uccāsano daṇḍavad utthitaḥ khe</s></l>
+<l> <s type="pada">māyūram etat pravadanti pīṭham//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_031">
+ <l> <s type="pada">harati sakalarogān āśu gulmodarādī</s>-</l>
+<l> <s type="pada">abhibhavati doṣān āsanaṃ śrīmayūram/</s></l>
+<l> <s type="pada">bahukadaśanabhuktaṃ bhasma kuryād aśeṣaṃ</s></l>
+<l> <s type="pada">janayati jaṭharāgniṃ jārayet kālakūṭam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_032">
+ <l> <s type="pada">uttānaṃ śavavad bhūmau</s> <s type="pada">śayanaṃ ca śavāsanam/</s></l>
+<l> <s type="pada">śavāsanaṃśramaharaṃ</s> <s type="pada">cittaviśrāntikārakam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_033">
+ <l> <s type="pada">caturāśītyāsanāni</s> <s type="pada">śivena kathitāni tu/</s></l>
+<l> <s type="pada">tebhyaś catuṣkam ādāya</s> <s type="pada">sārabhūtaṃ bravīmy aham//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_034">
+ <l> <s type="pada">siddhaṃ padmaṃ tathā saiṃhaṃ</s> <s type="pada">bhadraṃ cātha catuṣkakaṃ/</s></l>
+<l> <s type="pada">śreṣṭhaṃ tatrāpi ca sukhaṃ</s> <s type="pada">tiṣṭhat siddhāsane sadā//</s> </l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_035">
+ <l> <s type="pada">yonisthānaka°m aṅghrimūlaghaṭitaṃ kṛtvā dhruvaṃ vinyase</s>- </l>
+<l> <s type="pada">n meḍhre pādam athaikaeva hṛdayedhṛtvā samaṃ vigraham/</s></l>
+<l> <s type="pada">sthāṇuḥ saṃyamitendriyo’caladṛśā paśyed bhruvor antaraṃ</s> </l>
+<l> <s type="pada">etanmokṣakapāṭabhedajanakaṃ siddhāsanaṃ procyate//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_036">
+ <l> <s type="pada">meḍhrād upari vinyasya</s> <s type="pada">savyaṃgulphaṃ tathopari/</s></l>
+<l> <s type="pada">gulphāntaraṃ ca nikṣipya</s> <s type="pada">siddhāsanam idaṃ bhavet//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_037">
+ <l> <s type="pada">etat siddhāsanaṃ prāhu</s><s type="pada">r anye vajrāsanaṃ viduḥ/</s></l>
+<l> <s type="pada">muktāsanaṃvadanty eke</s> <s type="pada">prāhur guptāsanaṃ pare//</s></l>
+</lg>
+ 
+<lg xml:id="hp01_038">
+ <l> <s type="pada">yameṣv iva mitāhāra</s><s type="pada">m ahiṃsāṃniyameṣv iva/</s></l>
+<l> <s type="pada">mukhyaṃ sarvāsaneeke</s> <s type="pada">siddhāḥ siddhāsanaṃ viduḥ//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_039">
+ <l> <s type="pada">caturāśītipīṭheṣu</s> <s type="pada">siddham eva sadābhyaset/</s></l>
+<l> <s type="pada">dvisaptatisahasrāsu</s> <s type="pada">suṣumṇām iva nāḍiṣu//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_040">
+ <l> <s type="pada">ātmādhyāyī mitāhārī</s> <s type="pada">yāvad dvādaśavatsaram/</s></l>
+<l> <s type="pada">sadā siddhāsanābhyāsā</s><s type="pada">yoga niṣpattim āpnuyāt/</s></l>
+<l> <s type="pada">samastabahubhiḥ pīṭhaiḥ</s> <s type="pada">kiṃ syāt siddhāsane sati//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_041">
+ <l> <s type="pada">prāṇānile sāvadhāno</s> <s type="pada">baddhe kevalakumbhake/</s></l>
+<l> <s type="pada">utpadyate nirāyāsā</s><s type="pada">t svayam evonmanī yathā//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_042">
+ <l> <s type="pada">athaikasminn eva dṛḍhe</s> <s type="pada">baddhe siddhāsane sadā/</s> 
+</l>
+<l> <s type="pada">bandhatrayam anāyāsāt</s> <s type="pada">svayam evopajāyate//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_043">
+ <l> <s type="pada">nāsanaṃ siddhasadṛśaṃ</s> <s type="pada">na kumbhaḥ kevalopamaḥ/</s></l>
+<l> <s type="pada">na khecarīsamā mudrā</s> <s type="pada">na nādasadṛśo layaḥ//</s> 
+
+</l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_044">
+ <l> <s type="pada">vāmorūpari dakṣiṇaṃ ca caraṇaṃ saṃsthāpya vāmaṃ tathā</s></l>
+<l> <s type="pada">dakṣorūpari paścimena vidhinā dhṛtvā karābhyāṃ dṛḍham/</s></l>
+<l> <s type="pada">aṅguṣṭhau hṛdaye nidhāya cibukaṃ nāsāgram ālokaye-</s></l>
+<l> <s type="pada">d etad vyādhivināśakāri yamināṃ padmāsanaṃ procyate//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_045">
+ <l> <s type="pada">uttānau caraṇau kṛtvā</s> <s type="pada">ūrusaṃsthau prayatnataḥ/</s></l>
+<l> <s type="pada">ūrumadhye tathottānau</s> <s type="pada">pāṇī kṛtvā tato dṛśau//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_046">
+ <l> <s type="pada">nāsāgre vinyasedṛṣṭiṃ</s><s type="pada">dantamūlaṃ ca jihvayā/</s></l>
+<l> <s type="pada">uttaṃbhya cibukaṃ cakṣasy</s><s type="pada">otthāpyapavanaṃ śanaiḥ//</s>
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_047">
+ <l> <s type="pada">idaṃ padmāsanaṃ proktaṃ</s> <s type="pada">sarvavyādhivināśanam/</s></l>
+<l> <s type="pada">durlabhaṃ yena kenāpi</s> <s type="pada">labhyate dhīmatā bhuvi//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_048">
+ <l> <s type="pada">kṛtvā saṃpuṭitau karau dṛḍhataraṃ baddhvā tu padmāsanaṃ</s></l>
+<l> <s type="pada">gāḍhaṃ vakṣasi saṃnidhāya cibukaṃ dhyānaṃ ca tac cetasi/</s></l>
+<l> <s type="pada">vāraṃ vāram apānam ūrdhvam anilaṃ proccārayet pūritaṃ</s></l>
+<l> <s type="pada">muñcan prāṇam upaiti bodham atulaṃ śaktiprabhāvān naraḥ//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_049">
+ <l> <s type="pada">padmāsanasthito yogī</s> <s type="pada">nāḍīdvāreṣu pūrayan/</s></l>
+<l> <s type="pada">mārutaṃ dhārayed yas tu</s><s type="pada">sa mukto nātra saṃśayaḥ//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_050">
+ <l> <s type="pada">gulphau tu vṛṣaṇasyādhaḥ</s> <s type="pada">sīvanyāḥ pārśvayoḥ kṣipet/</s><anchor xml:id="VuI50"/></l>
+<l> <s type="pada">dakṣiṇe savyagulphaṃ tu</s> <s type="pada">dakṣagulphaṃ tu savyake//</s> 
+ 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_051">
+ <l> <s type="pada">hastau tu jānvoḥ saṃsthāpya</s> <s type="pada">svāṅgulīḥ saṃprasārya ca/</s></l>
+<l> <s type="pada">vyāttavaktro nirīkṣeta</s> <s type="pada">nāsāgraṃ susamāhitaḥ//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_052">
+ <l> <s type="pada">siṃhāsanaṃ bhaved eta</s><s type="pada">pūjītaṃ yogibhiḥ sadā/</s></l>
+<l> <s type="pada">bandhatrayasyasandhānaṃ</s> <s type="pada">kurute cāsanottamam//</s> 
+</l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_053">
+ <l> <s type="pada">gulphau ca vṛṣaṇasyādhaḥ</s> <s type="pada">sīvanyāḥ pārśvayoḥ kṣipet/</s> 
+ 
+</l>
+<l> <hi rend="grey"><s type="pada">savyagulphaṃ tathā savye</s> <s type="pada">gulphaṃ  dakṣiṇe/</s> 
+ 
+</hi></l>
+<l> <s type="pada">pārśvepādau ca pāṇibhyāṃ</s> <s type="pada">dṛḍhaṃ baddhvā suniścalam//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_054">
+ <l> <s type="pada">bhadrāsanaṃ bhaved etat</s> <s type="pada">sarvavyādhivināśanam/</s> </l>
+<l> <s type="pada">gorakṣāsanam ity āhu</s><s type="pada">r idaṃ vai siddhayoginaḥ//</s></l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_055">
+ <l> <s type="pada">evam āsanabandheṣu</s> <s type="pada">yogīndro vijitaśramaḥ/</s></l>
+<l> <s type="pada">athābhyāse nāḍiśuddhiṃ</s> <s type="pada">mudrādipavanakriyāḥ//</s></l> 
+</lg>
+ <div type="altrec">
+<lg xml:id="hp01_055_1">
+ <l> <s type="pada">kriyāyuktasya siddhiḥ syād</s><s type="pada">akriyasya kathaṃ bhavet/</s>  </l>
+<l> <s type="pada">na śāstrapāṭhamātreṇa</s> <s type="pada">yogasiddhiḥ prajāyate//</s> 
+
+ 
+ </l>
+</lg>
+</div> <div type="altrec">
+<lg xml:id="hp01_055_2">
+ <l> <s type="pada">na  </s> <s type="pada">kāraṇaṃ  /</s> </l>
+<l> <s type="pada">kriyaiva kāraṇaṃ </s> <s type="pada">satyan na saṃśayaḥ/</s> </l>
+<l> <s type="pada"/> <s type="pada">  //</s> 
+ 
+ </l>
+</lg>
+</div> <div type="altrec">
+<lg xml:id="hp01_055_3">
+ <l> <s type="pada">  svacche</s> <s type="pada"> viśvabudbudaḥ/</s> </l>
+<l> <s type="pada">pralīna udito veti</s> <s type="pada">vikalpapaṭalaḥ kutaḥ//</s> 
+ </l>
+</lg>
+</div> <div type="altrec">
+<lg xml:id="hp01_055_4">
+ <l> <s type="pada">śruti svagurupratītiḥ</s> </l>
+<l> <s type="pada">svātmapratītir manaso/</s> </l>
+<l> <s type="pada">etāni sarvāṇi </s> </l>
+<l> <s type="pada">matāni dhīrair iha sādhanāni//</s> 
+ </l>
+</lg>
+</div> 
+<lg xml:id="hp01_056">
+ <l> <s type="pada">āsanaṃ kumbhakaṃ citraṃ</s><s type="pada">mudrākhyaṃ karaṇaṃ tathā/</s></l>
+<l> <s type="pada">atha nādānusandhāna</s><s type="pada">m abhyāsānukramo haṭhe//</s> 
+</l> 
+</lg>
+ 
+<lg xml:id="hp01_057">
+ <l> <s type="pada">brahmacārī mitāhārī</s> <s type="pada">tyāgī yogaparāyaṇaḥ/</s></l>
+<l> <s type="pada">abdād ūrdhvaṃ bhavet siddho</s> <s type="pada">nātra kāryā vicāraṇā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_058">
+ <l> <s type="pada">susnigdhamadhurāhāra</s><s type="pada">ś caturthāṃśavivarjitaḥ/</s></l>
+<l> <s type="pada">bhujyate śivasaṃprītyai</s> <s type="pada">mitāhāraḥ sa ucyate//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_059">
+ <l> <s type="pada">kaṭvamlatīkṣṇalavaṇoṣṇahārītaśāka</s>-</l>
+<l> <s type="pada">sauvīratailatilasarṣapamatsyamadyam/</s></l>
+<l> <s type="pada">ajādimāṃsaṃ dadhitakrakulatthakola-</s></l>
+<l> <s type="pada">piṇyākahiṅgulaśunādyam apathyam āhuḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_060">
+ <l> <s type="pada">bhojanam ahitaṃ viṃdyāt punar apy uṣṇīkṛtaṃ rūkṣam/</s></l>
+<l> <s type="pada">atilavaṇādiyuktaṃkadaśanaśākotkaṭaṃ duṣṭam//</s> 
+</l> 
+</lg>
+ 
+ 
+<lg xml:id="hp01_061">
+ <l> 
+<s type="pada">varjayed durjanaprītiṃ</s> <s type="pada">vahnistrīpathasevanam/</s></l>
+<l> <s type="pada">prātaḥsnānopavāsādi</s> <s type="pada">kāyakleśavidhiṃ tathā//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_062">
+ <l> <s type="pada">godhūmaśāliyavaṣaṣṭikaśobhanānnaṃ</s></l>
+<l> <s type="pada">kṣīrājyakhaṇḍanavanītasitāmadhūni/</s></l>
+<l> <s type="pada">śuṇṭhīpaṭolakaphalādiṣu pañcaśākaṃ</s> </l>
+<l> <s type="pada">mudgā divyam udakaṃca munīndrapathyam//</s></l> 
+</lg>
+ <div type="altrec">
+<lg xml:id="hp01_062_1">
+ <l><s type="pada">sarvaśākamacākṣuṣyaṃ</s> <s type="pada"> śākapañcakaṃ</s>/</l>
+<l> <s type="pada">jīvantī vāstu matsyākṣī</s> <s type="pada">meghanādaḥ punarnavā</s>// 
+</l> 
+</lg>
+</div> <div type="altrec">
+<lg xml:id="hp01_062_2">
+ <l> <s type="pada">kṣīraparṇī ca jīvantī</s> <s type="pada">matsyākṣī ca punarnavā</s>/</l>
+<l> <s type="pada">meghanādaś ca</s> pañcaite <s type="pada">pañcaśākaḥ prakīrtitaḥ <texteng>small (sic)</texteng>//</s> 
+</l>
+</lg>
+</div> 
+<lg xml:id="hp01_063">
+ <l> <s type="pada">mṛṣṭaṃsamadhuraṃ snigdhaṃ gavyaṃ dhātuprapoṣakaṃ/</s></l>
+<l> <s type="pada">mano’bhilaṣitaṃ yogyaṃ yogī bhojanam ācaret//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_064">
+ <l> <s type="pada">yuvā vṛddho’tivṛddho vā</s> <s type="pada">vyādhito durbalo’pi vā/</s></l>
+<l> <s type="pada">abhyāsāt siddhim āpnoti</s> <s type="pada">sarvayogeṣv atandritaḥ//</s></l> 
+</lg>
+ 
+<lg xml:id="hp01_065">
+ <l> <s type="pada">pīṭhāni kumbhakāś citrā</s> <s type="pada">divyāni karaṇāni ca/</s></l>
+<l> <s type="pada">sarvo’pi ca haṭhābhyāso</s> <s type="pada">rājayogaphalāvadhi//</s></l> 
+</lg>
+ <div type="colophon" xml:id="hp01_col"><p> iti svātmārāmayogīndraviracitāyāṃ haṭhapradīpikāyāṃ āsanayogo nāma prathama upadeśaḥ// </p></div> 
+</body>
+</text>
+</TEI>
